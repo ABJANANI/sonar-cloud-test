@@ -154,7 +154,11 @@
               </to>
           </configuration>
       </plugin>
-	
+	    <plugin>
+      	<groupId>org.codehaus.mojo</groupId>
+      	<artifactId>sonar-maven-plugin</artifactId>
+      	<version>3.9.0.2155</version>
+      </plugin>
       <plugin>
         <groupId>io.spring.javaformat</groupId>
         <artifactId>spring-javaformat-maven-plugin</artifactId>
