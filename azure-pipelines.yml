@@ -16,6 +16,7 @@ steps:
       SonarCloud: 'sonarcloud'
       organization: 'abjanani'
       scannerMode: 'Other'
+      projectKey: ABJANANI_sonar-cloud-test
   - task: Maven@4
     inputs:
       mavenPomFile: 'pom.xml'
