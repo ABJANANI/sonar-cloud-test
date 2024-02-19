@@ -35,9 +35,10 @@
 <!--        <jdk.image>eclipse-temurin:17-jdk-alpine</jdk.image>-->
     <docker.image.tag>latest</docker.image.tag>
 	
-	<spring-cloud.version>2021.0.1</spring-cloud.version>
-	<jib-maven-plugin.version>3.2.1</jib-maven-plugin.version>
-
+  	<spring-cloud.version>2021.0.1</spring-cloud.version>
+  	<jib-maven-plugin.version>3.2.1</jib-maven-plugin.version>
+    <sonar.organization>abjanani</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
   </properties>
 
