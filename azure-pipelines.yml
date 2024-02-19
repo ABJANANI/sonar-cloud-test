@@ -9,6 +9,8 @@ steps:
       organization: 'abjanani'
       scannerMode: 'Other'
       projectKey: ABJANANI_sonar-cloud-test
+      extraProperties: |
+        sonar.token='$(SONAR_TOKEN)'
   - task: Maven@4
     inputs:
       mavenPomFile: 'pom.xml'
