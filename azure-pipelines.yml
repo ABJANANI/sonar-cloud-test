@@ -10,9 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+
   - task: SonarCloudPrepare@1
     inputs:
-      SonarCloud: 'sonar-cloud'
+      SonarCloud: 'sonarcloud'
       organization: 'abjanani'
       scannerMode: 'Other'
   - task: Maven@4
